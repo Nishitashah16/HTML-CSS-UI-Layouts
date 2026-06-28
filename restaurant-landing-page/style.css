@@ -1,0 +1,408 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+} 
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+@font-face {
+    font-family: Playfair;
+    src: url(./PlayfairDisplay-Medium.ttf);
+}
+
+main{
+    height:100%;
+    width:100%;
+    background-color:#0D0A06 ;
+}
+
+nav{
+    width:100%;
+    height:110px;
+    text-align:center;
+    padding-top: 40px;
+}
+
+nav h2{
+    color:#FFFFFF;
+    font-family: Playfair;
+    letter-spacing:2px;
+    font-size: 35px;
+    font-weight: 10;
+}
+
+nav img{
+    position: relative;
+    bottom:15px;
+}
+
+section{
+    height:calc(100% - 110px - 60px);
+    width:100%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+footer{
+    height:60px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#part1{
+    display:flex;
+    justify-content: center;
+    gap:120px;
+}
+
+.cards{
+    height:270px;
+    width:250px;
+    background:
+        radial-gradient(circle at top left,
+            rgba(255, 140, 0, 0.06) 0%,
+            transparent 35%),
+
+        radial-gradient(circle at top right,
+            rgba(255, 140, 0, 0.05) 0%,
+            transparent 30%),
+
+        linear-gradient(
+            180deg,
+            #171413 0%,
+            #121110 55%,
+            #0e0d0d 100%
+        );
+    border: 1px solid rgba(255,255,255,.04);
+
+    box-shadow:
+        inset 0 0 0 1px rgba(216,106,26,.12),
+        0 0 8px rgba(216,106,26,.08);
+    border-radius: 20px;
+    position: relative;
+
+}
+
+#c1{
+    border: 1px solid #D86A1A;
+    box-shadow:
+        0 0 5px #D86A1A,
+        0 0 15px rgba(216,106,26,.28),
+        0 0 30px rgba(216,106,26,.15);
+}
+
+#img1,
+#img2,
+#img3,
+#img4{
+     position:absolute;
+     left:70px;
+     top:30px;
+}
+
+#c4 #img4{
+    top:55px;
+}
+
+#c1 #img1{
+    left:80px;
+    top:30px;
+}
+
+#c2 #img2{
+    left:80px;
+    top:30px;
+}
+
+
+.cards h3{
+    font-family:Playfair;
+    color:#F5F2ED;
+    font-size:17px;
+    font-weight: 1;
+    position: absolute;
+    bottom:50px;
+    left:60px;
+}
+
+#c3 h3{
+    left:70px;
+}
+
+#c4 h3{
+    left:75px;
+}
+
+#c1 .line{
+    width: 50px;
+    height: 9px;
+
+    position: absolute;
+    left: 90px;
+    top: 225px;
+}
+
+#c2 .line{
+    width: 50px;
+    height: 9px;
+
+    position: absolute;
+    left: 100px;
+    top: 225px;
+}
+
+#c3 .line{
+    width: 50px;
+    height: 9px;
+
+    position: absolute;
+    left: 95px;
+    top: 225px;
+}
+
+#c4 .line{
+    width: 50px;
+    height: 9px;
+
+    position: absolute;
+    left: 99px;
+    top: 225px;
+}
+
+#c1 h4{
+    color: #D57A1F;
+    font-family: Playfair;
+    font-size:16px;
+    font-weight: 10px;
+    position: absolute;
+    top: 240px;
+    left: 46%;
+    transform: translateX(-50%);
+}
+
+#c2 h4{
+    color: #D57A1F;
+    font-family: Playfair;
+    font-size:16px;
+    font-weight: 10px;
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#c3 h4{
+    color: #D57A1F;
+    font-family: Playfair;
+    font-size:16px;
+    font-weight: 10px;
+    position: absolute;
+    top: 240px;
+    left: 48%;
+    transform: translateX(-50%);
+}
+
+#c4 h4{
+    color: #D57A1F;
+    font-family: Playfair;
+    font-size:16px;
+    font-weight: 10px;
+    position: absolute;
+    top: 239px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#button1{
+    height:23px;
+    width:80px;
+    border: 1px solid #D86A1A;
+    box-shadow: 0 0 4px rgba(143,76,26,.35);
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-top: 2px;
+    position:absolute;
+    top:10px;
+    left:10px;
+
+}
+
+#button1 p{
+    color:#8F4C1A;
+    font-size: 13px;
+}
+
+#button1 img{
+    position: relative;
+    top:2px;
+    left:-2px;
+}
+
+#button2{
+    height:23px;
+    width:56px;
+    border: 1px solid #D86A1A;
+    box-shadow: 0 0 4px rgba(143,76,26,.35);
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-top: 2px;
+    position:absolute;
+    top:10px;
+    left:10px;
+
+}
+
+#button2 p{
+    color:#8F4C1A;
+    font-size: 13px;
+}
+
+#button2 img{
+    position: relative;
+    top:2px;
+    left:-2px;
+}
+
+#part2{
+    display:flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#box1{
+    height:260px;
+    width:90%;
+     background:
+        radial-gradient(
+            ellipse at top center,
+            rgba(255,255,255,.015),
+            transparent 60%
+        ),
+        linear-gradient(
+            180deg,
+            #141414 0%,
+            #111111 60%,
+            #0D0D0D 100%
+        );
+
+    border: 1px solid rgba(210,112,35,.18);
+    border-radius: 18px;
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.03),
+        0 0 1px rgba(210,112,35,.25);
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #8F4C1A;
+    box-shadow: 0 0 4px rgba(143,76,26,.35);
+}
+
+#box1 #img5{
+    position: absolute;
+    left:40px;
+}
+
+#box1 #img6{
+    position: absolute;
+    right:0px;
+    opacity:0.4;
+}
+
+#box1 h6{
+    color:#C77628;
+    font-family: Playfair;
+    font-weight: 1;
+    letter-spacing: 3px;
+}
+
+#box1 h1{
+    color:#F2EEE8;
+    font-family: Playfair;
+    font-weight: 1;
+}
+
+#box1 p{
+    color:#9A948D;
+    font-family: Playfair;
+    font-size: 15px;
+}
+
+#box-text{
+    position: absolute;
+    left:23%;
+    top:35px;
+}
+
+#button3{
+    height:30px;
+    width:150px;
+    border: 1px solid #D86A1A;
+    box-shadow: 0 0 4px rgba(143,76,26,.35);
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-top: 2px;
+
+}
+
+#button3 img{
+    position: relative;
+    bottom:-4px;
+    left:10px;
+}
+
+#button3 p{
+    color:#8F4C1A;
+    font-family: Playfair;
+    font-size: 15px;
+}
+
+footer p{
+    width: 200px;
+    color:#8A847D;
+    padding-left: 11px;
+}
+
+#list-items{
+    width: 650px;
+    padding-left: 50px;
+}
+
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    color:#8A847D;
+}
+
+#icons{
+    width:200px;
+    display: flex;
+    /* justify-content: space-between; */
+    padding-right: 10px;
+    gap:10px;
+}
+
+.icon{
+    border:3px solid rgba(210,112,35,.18);
+    border-radius: 50%;
+    position: relative;
+    bottom:4px;
+}
+
+ul li::marker{
+    color:#8F4C1A;
+}

@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+} 
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+@font-face {
+    font-family: barlo;
+    src: url(./BarlowCondensed-Medium.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./inter.regular.ttf);
+}
+
+main{
+    height:100%;
+    width:100%;
+    background-color:#EFEFED;
+}
+
+nav{
+    height:350px;
+    width:100%;
+    position:relative;
+}
+
+nav #img1{
+    position:absolute;
+    top:20px;
+}
+
+nav #p1{
+    top:45px;
+    right:20px;
+    font-family: Inter;
+    font-size:13px;
+    position:absolute;
+    color:#C8392B;
+}
+
+nav #p2{
+    top:57px;
+    right:20px;
+    font-family: Inter;
+    font-size:13px;
+    position:absolute;
+    color:#C8392B;
+}
+
+#text1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 250px;
+    margin-left:-120px;
+    position: relative;
+}
+
+#line1{
+    font-family:barlo;
+    font-weight:50;
+    font-size:55px;
+    position:absolute;
+    top:40px;
+    left:435px;
+    color:#642424;
+    opacity: 0.92;
+}
+
+.line2{
+    font-family:barlo;
+    font-weight:50;
+    font-size:55px;
+    color:#642424;
+    opacity: 0.92;
+
+}
+
+#img2 {
+    position: relative;
+    top:8px;
+}
+
+#line3{
+    font-family:barlo;
+    font-weight:10;
+    font-size:55px;
+    position:absolute;
+    top:155px;
+    left:650px;
+    color:#9B8B8B;
+    opacity: 0.92;
+}
+
+#line4{
+    font-family:barlo;
+    font-weight:10;
+    font-size:55px;
+    position:absolute;
+    top:210px;
+    left:650px;
+    color:#642424;
+    opacity: 0.92;
+}
+
+section{
+    height:230px;
+    width:100%;
+    position: relative;
+}
+
+section #cards{
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+    padding-right:50px;
+}
+
+section #texts{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left:20px;
+    bottom:10px;
+
+}
+
+#texts{
+    text-decoration: underline;
+    font-family: barlo;
+    font-size:26px;
+    color:#642424;
+}
+
+nav h6{
+    white-space: nowrap;
+    font-family: Inter;
+    color:#642424;
+    font-size: 8px;
+    position:absolute;
+    left:660px;
+    bottom:25px;
+    
+}
+
+#c1{
+    height:230px;
+    width:230px;
+    background-color: #C8392B;
+    border-radius:20px;
+    background-image: url("./Luntu\ Studio\ Editorial.jpg");
+    background-size: cover;
+}
+
+#c2{
+    height:230px;
+    width:230px;
+    background-color: #C8392B;
+    border-radius:20px;
+    background-image: url("./Inst\ _\ yulsa_x.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#c3{
+    height:230px;
+    width:230px;
+    background-color: #C8392B;
+    border-radius:20px;
+    background-image: url("./NightCrawler.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+footer{
+    height:calc(100% - (350px + 230px));
+    width:100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+#f1, #f2 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.line5{
+    font-family:barlo;
+    font-weight:30;
+    font-size:35px;
+    color:#642424;
+    opacity: 0.92;
+
+}
+
+.line6{
+    font-family:barlo;
+    font-weight:30;
+    font-size:35px;
+    color:#9B8B8B;
+    opacity: 0.92;
+
+}
+
+footer p{
+    white-space: nowrap;
+    font-family: Inter;
+    color:#642424;
+    font-size: 8px;
+    position:absolute;
+    text-align: center;
+    top:120px;
+}
+
+
+
+
