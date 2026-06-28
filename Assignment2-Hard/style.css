@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+} 
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+@font-face {
+    font-family:cormorant ;
+    src: url(./CormorantGaramond-Medium.ttf);
+}
+
+@font-face {
+    font-family: monte;
+    src: url("./Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: poppi;
+    src: url("./Poppins-Regular.ttf");
+}
+
+main{
+    height:100%;
+    width:100%;
+    background:linear-gradient(to right,#F5F4EF 50%, #C54636 50% );
+    position: relative;
+}
+
+main #img1{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+nav{
+    height:100px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left:45px;
+}
+
+#nav1{
+    width:30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav2{
+    width:700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right:80px;
+}
+
+#nav1 h1{
+    font-family: monte;
+    color:#243A34;
+}
+
+#nav1 p{
+    height:40px;
+    width:250px;
+    background-color:  #EFEFEF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap:13px;
+    padding-left:20px;
+    font-family: poppi;
+    color:#6F6F6F;
+}
+
+#nav1 #img2{
+    opacity:0.5;
+}
+
+#nav2 p{
+    font-family: poppi;
+    color:#F4E7D8;
+}
+
+section{
+    height:calc(100% - 100px);
+    width:100%;
+    display: flex;
+}
+
+#leftside{
+    height:100%;
+    width:50%;
+    position: relative;
+}
+
+#leftside h1{
+     color:#1F3B35;
+     font-family: cormorant;
+     font-size: 75px;
+     font-weight: 500;
+     position: absolute;
+     top:235px;
+     left:-100px;
+     transform: rotateZ(270deg);
+
+}
+
+ul{
+    height:500px;
+    width:500px;
+    color:#1F3B35;
+    font-family: monte;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: translate(45%,5%);
+}
+
+#leftside p{
+    font-family: poppi;
+    font-size: 15px;
+    font-weight: 2;
+    padding-top: 3px;
+    
+}
+
+hr{
+    width:200px;
+    opacity: 0.5;
+}
+
+#rightside{
+    height:100%;
+    width:50%;
+    position: relative;
+}
+
+#rightside h1{
+    color:#F7F0E7;
+    font-family: cormorant;
+    line-height: 1.05;
+    font-size: 60px;
+    position: absolute;
+    top:30px;
+    left:250px;
+    font-weight: 1;
+}
+
+#img3{
+    position: absolute;
+    left:270px;
+    top:190px;
+    opacity: 3;
+}
+
+#img4{
+
+ position: absolute;
+    left:330px;
+    top:200px;
+    width:50px;
+    margin-left:-10px;
+
+}
+
+#icon{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    top:28%;
+    left:47%;
+    gap:20px;
+    color:#F4E7D8;
+}
+
+.value{
+    position: absolute;
+    left:30px;
+}
+
+#icon img{
+    position: relative;
+    bottom:-10px;
+}
+
+#rightside h2{
+    font-size: 40px;
+    color:#F2D09A;
+    position: absolute;
+    top:57%;
+    left:35%;
+    font-family: poppi;
+    font-weight:800;
+}
+
+#button1{
+    display: flex;
+    gap:10px;
+    color:#F5E8D8;
+    font-family: poppi;
+}
+
+
+#button2{
+    display: flex;
+    gap:10px;
+    color:#F5E8D8;
+    font-family: poppi;
+}
+
+#button{
+   display:flex;
+   flex-direction: column;
+   gap:10px;
+   position: absolute;
+   top:69%;
+   left:35%;
+}
+
+#button img{
+    position: relative;
+    bottom:3px;
+}
+
+#button3{
+    height:40px;
+    width:180px;
+    background-color:#F2D09A;
+    border-radius:7px;
+    padding-top: 10px;
+    padding-left: 29px;
+}
+
+
+
+
+
+
+
+
