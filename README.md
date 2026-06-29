@@ -25,17 +25,19 @@ An informative UI showcasing cockroach details with a modern card-based layout.
 
 
 ## Technologies Used
--HTML5
--CSS3
--Flexbox
--position: relative
--position: absolute
+
+- HTML5
+- CSS3
+- Flexbox
+- `position: relative`
+- `position: absolute`
 
 ## Features
--Modern UI Design
--Flexbox Layout
--CSS Positioning (position: relative & position: absolute)
--Organized Project Structure
+
+- Modern UI Design
+- Flexbox Layout
+- CSS Positioning (`position: relative` & `position: absolute`)
+- Organized Project Structure
 
 
 ## Author
